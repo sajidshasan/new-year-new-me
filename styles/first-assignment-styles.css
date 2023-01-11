@@ -4,17 +4,17 @@
 
 /* header */
 .header {
-
     display: flex;
-
     text-align: left;
     justify-content: right;
     align-items: center;
     background-image: url(../images/banner/banner1.png);
     height: 808px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: bottom;
     max-width: 100%;
+    margin-bottom: 131px;
 }
 
 .banner {
@@ -56,11 +56,15 @@
 }
 
 /* main section */
-.failure {
+.failure {}
+
+.failure-div {
     display: flex;
-    justify-content: center;
     gap: 90px;
+    justify-content: center;
+    align-items: center;
 }
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -78,7 +82,7 @@
     width: 350px;
     line-height: 47px;
     position: static;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .failure-body {
@@ -107,4 +111,76 @@ ul li:before {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+
+/* plaaning section */
+
+.plan-container {
+
+    justify-content: center;
+    display: flex;
+    gap: 99px;
+}
+
+.second-title {
+    justify-content: center;
+    padding-right: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+}
+
+.my-plan {
+    padding: 130px;
+    text-align: center;
+}
+
+.plan {
+    height: 93px;
+    justify-content: space-around;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap: 100px;
+
+}
+
+.plan-details {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/* reminder section */
+/* .reminder { */
+    background-image: url(../images/watch.png), linear-gradient(to bottom, rgba(245, 246, 252, 0.5)0%, rgba(117, 19, 93, 0.5)100%);
+    border-radius: 8px;
+    display: flex;
+    text-align: left;
+    width: 1140px;
+    height: 300px;
+    justify-content: left;
+    align-items: center;}
+.reminder{
+
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(../images/watch.png);
+}
+.positive{
+    padding-left: 64px;
+}
+.reminder img {
+    object-fit: fill;
 }
