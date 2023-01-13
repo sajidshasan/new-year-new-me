@@ -165,22 +165,82 @@ ul li:before {
 }
 
 /* reminder section */
-/* .reminder { */
-    background-image: url(../images/watch.png), linear-gradient(to bottom, rgba(245, 246, 252, 0.5)0%, rgba(117, 19, 93, 0.5)100%);
-    border-radius: 8px;
+.reminder {
+    background: linear-gradient(90deg, rgba(255, 51, 0, 0.9) 0%, rgba(0, 0, 0, 0)100%), url(../images/watch.png);
     display: flex;
     text-align: left;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
     width: 1140px;
     height: 300px;
-    justify-content: left;
-    align-items: center;}
-.reminder{
+    margin-top: 133px;
+    margin-bottom: 126px;
+    margin-left: 231px;
+}
 
-    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(../images/watch.png);
+.positive {}
+
+.reminder-pera {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 459px;
+    padding-left: 63px;
+    margin-bottom: 24px;
+    padding-bottom: 0px;
+    color: #FFFFFF;
 }
-.positive{
-    padding-left: 64px;
+
+.button-second {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding-top: 0%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 63px;
 }
-.reminder img {
-    object-fit: fill;
+
+/* ending section */
+.ending {
+    margin-top: 560px;
+    background: #151414;
+}
+.ending-content{
+    display: flex;
+    gap: 331px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.ending-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.ending-body1{
+    width: 485px;
+    padding-bottom: 130px;
+    padding-top: 130px;
+}
+.e-para, .phone, .my-email{
+    color: #FFFFFF;
+    width: ;
+}
+.phone{
+    padding-bottom: 32px;
+}
+.ending-body{
+    color: #FFFFFF;
+}
+.twitter{
+
+    padding-left: 16px;
+    padding-right: 16px;
 }
